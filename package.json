@@ -1,0 +1,8 @@
+{
+  "name": "caffe-inna-greek-deli-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Greek deli/cafe demo for Caffe-inna Greek Deli using the restaurant template style.",
+  "scripts": {"build": "mkdir -p dist && cp index.html dist/index.html", "start": "python3 -m http.server 5174"},
+  "devDependencies": {}
+}
